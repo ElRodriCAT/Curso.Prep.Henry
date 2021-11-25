@@ -137,10 +137,10 @@ function esImpar(num) {
   // De lo contrario, devuelve "false"
   // Tu código:
   if(num%2===1){
-    true;
+    return true;
   }
  else{
-   false;
+   return false;
  }
 }
 
