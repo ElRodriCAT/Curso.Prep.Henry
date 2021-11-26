@@ -220,8 +220,8 @@ function obtenerSaludo(nombre) {
   // Toma la string "nombre" y concatena otras string en la cadena para que tome la siguiente forma:
   // "Martin" -> "Hola Martin!"
   // Tu código:
-  var concatenado = "hola" + nombre + "!";
-  return concatenado;
+  return  "hola" + nombre + "!";
+  
   
 }
 
@@ -245,8 +245,7 @@ function retornarPerimetro(lado){
 function areaDelTriangulo(base, altura){
   //Desarrolle una función que calcule el área de un triángulo.
   //Escribe tu código aquí
-var areaTriangulo = base * altura;
-return areaTriangulo;
+return (base * altura)/2
 }
 
 
@@ -254,7 +253,7 @@ function deEuroAdolar(euro){
   //Supongamos que 1 euro equivale a 1.20 dólares. Escribe un programa que reciba
   //como parámetro un número de euros y calcule el cambio en dólares.
   //Escribe tu código aquí
-  euro * 1.2;
+  return euro * 1.2;
 }
 
 
