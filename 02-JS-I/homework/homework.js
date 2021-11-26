@@ -196,10 +196,9 @@ function esPositivo(numero) {
   else{
     if(numero>0){
       return "es positivo";
-
-    }
+     }
     else{
-return "es negativo";
+    return "es negativo";
     }
   }
 }
